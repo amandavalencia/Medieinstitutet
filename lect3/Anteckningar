@@ -1,0 +1,18 @@
+Flexbox - används för att placera iconer. All flexbox ska ligga i en container som ligger som flex. 
+
+body flex-direction: column nowrap - gör att det lägger sig i en kolumn under varandra
+flex-flow: column nowrap; - 
+flex-direction: column; läggs under varandra
+flex-wrap: wrap; - gör att sakerna hamnar under när sidan blir mindre.
+
+istället för att skriva både flex-direction: row; och flex-wrap: wrap; så kan man skriva justify-content: space-around 
+
+justify-content - horisontellt
+align-items - vertikalt
+flex-direction - ordningen det blir placerat
+
+animationer: 
+https://emojigraph.org/sv/
+
+öva på flexbox: https://flexboxfroggy.com/#sv
+

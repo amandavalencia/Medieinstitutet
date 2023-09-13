@@ -3,5 +3,33 @@
     font-family: emoji;
     src: url(NotoColorEmoji-Regular.ttf);
 }
-
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h1{
+    display: inline-block;
+}
+h2{
+    display: inline-block;
+}
+.opposite{
+    display: inline-block;
+    background-color: black;
+    color: antiquewhite;
+    margin-top: 50px;
+}
+p{
+    color: blueviolet;
+    font-size: 30px;
+}
+.blue{
+    color: blue;
+}

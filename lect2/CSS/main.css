@@ -12,12 +12,18 @@ h1 {
     padding: 20px;
     font-size: 50px;
     text-align: center;
+    position: sticky;
 
 }
 h1:active{
     color: lightblue;
 }
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
 
+}
 .center{
     display: block;
     

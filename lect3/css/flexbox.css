@@ -1,0 +1,23 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 100%;
+}
+h1{
+    position: absolute;
+    font-size: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    top: 30%;
+    left: 0;
+    color: bisque;
+    opacity: 0.6;
+}
