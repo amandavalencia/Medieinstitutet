@@ -1,3 +1,5 @@
+FLEXBOX
+
 flex-wrap: wrap; - gör att sakerna ramlar ner till nästa rad om det inte får plats
 
 flex-basis: 150px;-specifierar hur stort elemetet ska vara. med med .box:nth-child(2)
@@ -6,4 +8,4 @@ flex-basis: 150px;-specifierar hur stort elemetet ska vara. med med .box:nth-chi
     flex-basis och flex-grow kan skrivar som flex:(grow)(shrink)(basis);
 
 
-   
+   GRID
