@@ -1,0 +1,9 @@
+flex-wrap: wrap; - gör att sakerna ramlar ner till nästa rad om det inte får plats
+
+flex-basis: 150px;-specifierar hur stort elemetet ska vara. med med .box:nth-child(2)
+    flex-grow:2; kan man få en av elementet att ändå växa efter det man skriver i child.
+
+    flex-basis och flex-grow kan skrivar som flex:(grow)(shrink)(basis);
+
+
+   

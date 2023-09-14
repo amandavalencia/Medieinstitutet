@@ -1,0 +1,32 @@
+(1) Beskriv varför behöver man "attributes" in en html-kod.
+
+
+(2) Ger ett exempel på en "Opening" och "Closing" element.
+
+
+(3) Skapa ett stycke med texten "Hello Word!" inuti.
+
+
+
+(4) Skriv html-koden som kan reproducera följande layout:
+<br>
+<h1>Heading 1</h1>
+<br>
+<p>This paragraph contains a <b>bold/strong</b> word and a <i>italic</i> word.
+
+(5) Skriv en hyper textlänk som pekar på Google sökmotor:https://www.google.com/webhp
+<a href="https//google.com/webhp">
+
+(6) Skriv html-koden för en ordnad lista med 3 artiklar.
+
+
+(7) När måste vi använda artikel elementet (article) istället för avsnitts elementet (section).Förklara varför.
+
+
+(8) Skriv html-koden för tvåkapslade/nested listor. Den första lista måste vara numererad och den andra onumererad.
+
+
+(9) Beskriv hur kan man validera en html-kod.
+
+
+(10) Skriv en html-kod som ger följande resultat när den öppnas med en webbläsare. Skicka-knappen ska skicka all data till servern https://httpbin.org med rätt metod för detta formulär.
