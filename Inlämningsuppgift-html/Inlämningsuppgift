@@ -1,11 +1,12 @@
 (1) Beskriv varför behöver man "attributes" in en html-kod.
-
+attributet är där man ger egenskaper för ett givet element. tex elementet <a> som är för att skriva en länk så är href() attributet som ger värde och där man skriver in själva url. 
 
 (2) Ger ett exempel på en "Opening" och "Closing" element.
-
+<html></html>
+<br>
 
 (3) Skapa ett stycke med texten "Hello Word!" inuti.
-
+<p>Hello World!</p>
 
 
 (4) Skriv html-koden som kan reproducera följande layout:
@@ -18,15 +19,144 @@
 <a href="https//google.com/webhp">
 
 (6) Skriv html-koden för en ordnad lista med 3 artiklar.
-
+<ol>
+<li>Lorem</li>
+<li>Lorem</li>
+<li>Lorem</li>
+</ol>
 
 (7) När måste vi använda artikel elementet (article) istället för avsnitts elementet (section).Förklara varför.
+<aricle> elementet ska ha ett innehåll som är specifikt och kan stå för sig självt. <Section> kan ha ett mer generelt content, det kan vara en grupp innehåll som har ett tema ofta med en heading.
 
 
 (8) Skriv html-koden för tvåkapslade/nested listor. Den första lista måste vara numererad och den andra onumererad.
+nested list:
+<ul>
+  <li>kaffe</li>
+  <li>Te
+    <ul>
+      <li>svart te</li>
+      <li>rött te</li>
+    </ul>
+  </li>
+  <li>varm choklad</li>
+</ul>
+
+<ol>
+    <li>Kaffe</li>
+    <li>Te</li>
+        <ul>
+            <li>svart te</li>
+            <li>rött te</li>
+        </ul>
+    <li>Varm choklad</li>
+</ol>
 
 
 (9) Beskriv hur kan man validera en html-kod.
-
+Man använder sig av sidan https://validator.w3.org/ där man kan lägga in sin kod som en fil eller bara kopiera in koden och så validerar sidan din kod och det kommer upp om man har något fel.
 
 (10) Skriv en html-kod som ger följande resultat när den öppnas med en webbläsare. Skicka-knappen ska skicka all data till servern https://httpbin.org med rätt metod för detta formulär.
+
+<fieldset>
+    <legend>Student info</legend>
+<fieldset>
+    <legend>Personal Info</legend>
+<p>
+<label for="first name">First name:</label>
+<input type="text" name="first name">
+</p>
+<p>
+<label for="Last name">Last name:</label>
+<input type="text" name="last name">
+</p>
+<p>
+<label for="Pasword">Pasword:</label>
+<input type="password">
+</p>
+</fieldset>
+<fieldset>
+    <legend>Photo</legend>
+    <img src="img/blue-bird.jpg" height="200px" alt="Bird">
+    <p>A kingfish Student!</p>
+</fieldset>
+<button type="submit" formaction="http://httpbin.org/post" formmethod="post">Submit</button>
+</fieldset>
+
+(11) Skriv en html-kod som ger följande resultat när den öppnas med en webbläsare
+
+<table>
+    <caption>September</caption>
+    <thead>
+        <th></th>
+        <th>Måndag</th>
+        <th>Tisdag</th>
+        <th>Onsdag</th>
+        <th>Torsdag</th>
+        <th>Fredag</th>
+        <th>Lördag</th>
+        <th>Söndag</th>
+    </thead>
+   <tbody>
+    <tr>
+    <th>35</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    </tr>
+    <tr>
+    <th>36</th>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+    </tr>
+    <tr>
+    <th>37</th>
+    <td>11</td>
+    <td>12</td>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+    <td>16</td>
+    <td>17</td>
+    </tr>
+    <tr>
+        <th>38</th>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        </tr>
+        <tr>
+        <th>39</th>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td></td>
+        </tr>
+   </tbody>
+</table>
+
+(12) Beskriv vad ett versionshanteringssystem gör. Ge två exempel på sådana tillämpningar.
+Det är ett program som sparar ändringar på filer över lång tid så att man ska kunna återskapa tidigare versioner och spåra ändringar och även kunna se vem som gjort ändringar i tex en sida där flera jobbar i. 
+
+
+(13)    Vad betyder det att begå/commit filer med ett versionskontrollsystem?
+Det är som att spara ändringen man gjort på filen och vad man gör är att man skriver en kommentar vilket man sen kan gå tillbaka och se. Det som är bra är att man kan gå tillbaka till en tidigare version av sitt projekt. 
+
+(14)    Vad är syftet med att "pull" och "push" a "repository" med Git?
+push används för att ladda upp ens commits som man har gjort och spara dom lokalt i den branch man jobbar med. pull används när det är fler som jobbar på samma projekt eller om man gör de med fler datorer så behöver man hämta de ändringar/commits som gjorts från fjärr-repository.

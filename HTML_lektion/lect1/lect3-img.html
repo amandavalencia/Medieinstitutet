@@ -23,26 +23,77 @@
 
    <br><br><br><br><br> <hr>
 <h3>Table</h3>
+
+
 <table>
+    <caption>September</caption>
     <thead>
-        <th>Name</th>
-        <th>Result</th>
+        <th></th>
+        <th>Måndag</th>
+        <th>Tisdag</th>
+        <th>Onsdag</th>
+        <th>Torsdag</th>
+        <th>Fredag</th>
+        <th>Lördag</th>
+        <th>Söndag</th>
     </thead>
    <tbody>
-
     <tr>
-    <td>Philippe</td> <td>10</td>
+    <th>35</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
     </tr>
-
     <tr>
-        <td>Marc</td><td>8</td>
+    <th>36</th>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
     </tr>
     <tr>
-        <td>Anna</td><td>9</td>
+    <th>37</th>
+    <td>11</td>
+    <td>12</td>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+    <td>16</td>
+    <td>17</td>
     </tr>
+    <tr>
+        <th>38</th>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        </tr>
+        <tr>
+        <th>39</th>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td></td>
+        </tr>
    </tbody>
 </table>
 
+
+
+<br><br><br><br><br><br><br><br><br><br>
 <table border="1">
     <thead>
         <th>Day</th><th>Temp</th><th>Mean</th>
@@ -72,21 +123,30 @@
 
 <form action="">
 <fieldset>
-    <legend>Personal info</legend>
-<br>
-<label for="first name">First name:</label><br>
+    <legend>Student info</legend>
+<fieldset>
+    <legend>Personal Info</legend>
+<p>
+<label for="first name">First name:</label>
 <input type="text" name="first name">
-<br><br>
-<label for="Last name">Last name:</label><br>
+</p>
+<p>
+<label for="Last name">Last name:</label>
 <input type="text" name="last name">
-<p>
-<label for="Pasword">Pasword:</label><br>
-<input type="password" placeholder="your secret">
 </p>
 <p>
-<label for="number">Number:</label><br>
-<input type="number" name="number">
+<label for="Pasword">Pasword:</label>
+<input type="password">
 </p>
+</fieldset>
+<fieldset>
+    <legend>Photo</legend>
+    <img src="img/svamp-text-trans.png" height="200px" alt="Bird">
+    <p>A kingfish Student!</p>
+</fieldset>
+<button type="submit" formaction="http://httpbin.org/post" formmethod="post">Submit</button>
+</fieldset>
+
 <p>
     <textarea name="message" cols="30" rows="10"></textarea>
 </p>
