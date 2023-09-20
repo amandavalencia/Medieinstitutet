@@ -1,0 +1,6 @@
+@extend -om man vill att en ska ärva egenskaper av sin parent exempel: 
+.p1{
+    @extend .p2
+}
+
+$-variabler

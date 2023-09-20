@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+  border: 0.5rem solid;
+  border-radius: 30px;
+  color: rgb(56, 62, 145);
+  background-color: rgb(209, 161, 209);
+}
+.main .section {
+  font-weight: 700;
+}
+.main .section .p1 {
+  font-weight: 400;
+}
+.main .section .p2 {
+  color: yellow;
+}
+.main .main_section {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: mycolor(orange);
+  color: rgb(156, 114, 35);
+}/*# sourceMappingURL=style.css.map */

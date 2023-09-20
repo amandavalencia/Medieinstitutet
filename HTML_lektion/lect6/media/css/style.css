@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* maximum with for the viewport */
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+@media (max-width: 400px) {
+  section {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+  }
+}
+
+/* så som Phelippe skrev:
+$maxwidth: 400px;
+$width: 200px;
+@mixin reduce($maxwith, $width)
+    @media (max-width: $width)
+       p{
+        with: $width;
+        }
+
+section{
+    @include reduce($, $)
+}*//*# sourceMappingURL=style.css.map */

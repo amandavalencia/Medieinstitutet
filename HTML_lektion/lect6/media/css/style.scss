@@ -1,0 +1,34 @@
+$mobil: 400px; /* maximum with for the viewport */
+
+@mixin mobil{
+   @media (max-width: $mobil){
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+
+   }
+}
+
+section{
+    @include mobil;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+
+
+/* så som Phelippe skrev:
+$maxwidth: 400px;
+$width: 200px;
+@mixin reduce($maxwith, $width)
+    @media (max-width: $width)
+       p{
+        with: $width;
+        }
+        
+section{
+    @include reduce($, $)
+}*/

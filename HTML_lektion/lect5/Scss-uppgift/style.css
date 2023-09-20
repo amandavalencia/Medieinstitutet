@@ -1,0 +1,15 @@
+.section .p1:hover, .section .p2:hover {
+  color: pink;
+}
+
+.p2 {
+  color: blue;
+  font-size: 30px;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  font-weight: 700;
+  color: aqua;
+}/*# sourceMappingURL=style.css.map */

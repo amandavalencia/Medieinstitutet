@@ -77,7 +77,7 @@ Man använder sig av sidan https://validator.w3.org/ där man kan lägga in sin 
 </fieldset>
 <fieldset>
     <legend>Photo</legend>
-    <img src="img/blue-bird.jpg" height="200px" alt="Bird">
+    <img src="img/hummingbird-2139279_640.jpg" height="200px" alt="hummingbird">
     <p>A kingfish Student!</p>
 </fieldset>
 <button type="submit" formaction="http://httpbin.org/post" formmethod="post">Submit</button>

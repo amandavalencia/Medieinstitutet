@@ -1,0 +1,10 @@
+.body {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.body .header2 {
+  color: blue;
+}
+.body .b ~ .a {
+  color: red;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+
+för att anpassa sidan för mobiler använder man @ media -
+
+@ mixin mobil($mobil){
+    @media(max-with:$mobil){
+        @content;
+    }
+}
+
+nested - kan man skriva i scss fil och man behöver inte dela upp klasserna som på css utan skriva in under samma. 
+ex .body{
+    font-size: 2rem;
+    font-weight: 700;
+    .header2{
+        color: blue;
+    }
+}
+där header ligger inne i body.då gäller färgen för båda. 
+.b~.a{ gör att den bara påverkar classerna a efter classen b och inte dom som står över}
+
+p::first-letter{styra utseendet på första bokstaven
+}
+
