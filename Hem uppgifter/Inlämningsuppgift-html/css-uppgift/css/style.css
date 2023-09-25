@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Här har jag fixa menyn genom att använda mig av flexbox. Jag stylade även texten på menyn genom att ta bort pungter och underlinjen samt satte dit en hover men färgen gul.  */
+body{
+    color: white;
+    padding: 0.5rem;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content:space-around;
+}
+li a{
+    text-decoration: none;  
+    color: antiquewhite;
+    font-size: 1.5rem;
+}
+li a:hover{
+    color: yellow;
+    transition: all 1s ease;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+}
+/* Här använde jag mig av grid för att bygga ihop sidan efter bilden. Jag delade upp den i fyra columner och bestämde därefter hur stor plats alla skulle ta i conteinern.  */
+.box{
+    padding: 0.5rem;
+}
+.box:first-child{
+grid-column: 1/4;
+background-color: blue;
+}
+.box:nth-child(2){
+    order: -1;
+    grid-column: 1/5;
+}
+.box:nth-child(3){
+    background-color: lightblue;
+    grid-row: span 2;
+}
+/* här vände jag på texten men lyckades inte fixa så att den skulle vara på den vänstra sidan av boxen, jag testade med padding och jag testade med flex men fick inte det att funka. */
+.box:nth-child(4){
+background-color: lightblue;
+writing-mode: vertical-rl;
+font-size: 2rem;
+}
+.box:nth-child(5){
+    grid-column: 2/4;
+    background-color: purple;
+}
+/* här fixade jag första bokstaven i texten och jag fixade så att copyright hamnade på högra hörnet. */
+.p1::first-letter{
+    font-size: 2rem;
+    font-weight: 600;
+    color: yellow;
+}
+/* slutet på sidan, footer */
+.footer{
+    text-align: end;
+    }
+    .el{
+        background-color: blueviolet;
+        padding: 2rem;
+    }

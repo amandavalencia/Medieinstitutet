@@ -1,0 +1,58 @@
+$primary-color: black;
+$secondary-color:rgb(81, 128, 123);
+$transparent-color:rgb(163, 151, 151);
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-image: url(../img/poppies-174276_1280.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $primary-color;
+    // overflow-y: scroll;
+    text-align: center;
+}
+.main{
+padding-top: 30vh;
+}
+.name{
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    color: $secondary-color;
+    margin-top: 4rem;
+    text-shadow: 2px 2px 5px white;
+}
+hr{
+    color: white;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+        
+        .menu-nav_items {
+         font-size: 1.5rem;
+           color: $secondary-color;
+           margin-top: 20px;
+}
+.menu-nav_items:hover{
+    color: $primary-color;
+}
+
+
+}
